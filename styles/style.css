@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BR:wght@100..400&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+*{
+    margin: 0;
+
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+   
+
+}
+ .first-line{
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+   
+    height: 100px;
+
+}
+.firstline1{
+    margin-left: 170px;
+    color:rgb(230, 83, 60);
+    font-size:3rem;
+    font-weight: 800;
+
+}
+.firstline2{
+  display: flex;
+  gap: 5rem;
+  margin-right: 170px;
+  border:2px solid silver;
+  padding: 10px 15px;
+  border-radius: 30px;
+  
+  
+}
+.firstline2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+.firstline2 button{
+ border: 2px solid color rgb(230, 83, 60);
+ border-radius: 20px;
+ padding: 12px;
+ background-color: rgb(230, 83, 60);
+ color: white;
+ font-size: 18px;
+ font-weight: 600;
+ cursor: pointer;
+}
+.section1{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28rem;
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+   
+  
+    
+    
+   
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    
+    
+}
+.leftside h3{
+    font-size: 78px;
+    font-weight: 900;
+    color: white;
+}
+.leftside p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+} 
+.twobutton{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin:0px 15px;
+    padding: 0px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 500px;
+    height: 55px;
+    
+}
+.btn1{
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(230, 83, 60); 
+    padding:0px 100px;
+    display:flex;
+    align-items: center;
+    border: 1px solid silver;
+    
+      
+}
+.btn2{
+    border-radius: 30px;
+    color: white;
+    
+    padding:0px 100px;
+    display:flex;
+    align-items: center;
+    background-color: black;
+    border: 1px solid silver;
+   
+    }
+.float{
+    position: relative;
+    
+    margin-right: 23rem;
+    padding: 20px 35px;
+    
+    left:13rem;
+    bottom: 26rem;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    
+    
+     
+}
+.float h3{
+    font-size: 35px;
+     font-weight: 900;
+}
+.float p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.float2{
+    position: relative;
+    right: 5rem;
+    bottom:15rem;
+    
+    margin-right: 23rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    
+}
+.float2 h4{
+    font-size: 24px;
+    font-weight: 900;
+}
+.float2 p{
+    font-size: 16px;
+    font-weight:400;
+}
+.ball{
+    border: 2px solid rgb(230, 83, 60); 
+    height: 50px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60); 
+}
+.pic1{
+    position: relative;
+    right: 8rem;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    
+    margin-top: 5rem;
+    padding-left:80px;
+    
+}  
+.pic2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+    top: 2rem;
+}
+.designletter{
+
+    /*"Playwrite HR Lijeva", cursive;*/
+
+   
+    font-family: "Playwrite BR", cursive;
+    font-style: italic;
+    
+   
+    
+}
+.word{
+    height: 9rem;
+}
