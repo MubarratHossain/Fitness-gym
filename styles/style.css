@@ -239,40 +239,74 @@ height: 4650px;
     
     display: flex;
     justify-content: space-evenly;
-    padding: 30px 10px 15rem;
+    padding: 30px 10px 5rem;
     border: 2px solid white;
     
+}
+.p2 h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
 }
 .p3{
     border: 2px solid white;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+     
+}
+.p3:hover{
+    background-color: rgba(17, 16, 16, 0.527);
 }
 .p4{
     border: 2px solid white;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.p4:hover{
+    background-color: rgba(17, 16, 16, 0.527);
 }
 .p5{
     border: 2px solid white;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.p5:hover{
+    background-color: rgba(17, 16, 16, 0.527);
 }
 .p6{
     border: 2px solid white;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
-.p3 img{
+    .p6:hover{
+        background-color: rgba(17, 16, 16, 0.527);
+    }
     
+.p3 img{
+    border: 2px solid silver;
     border-radius: 50%;
+
 }
 .p4 img{
-    
+    border: 2px solid silver;
     border-radius: 50%;
 }
 .p5 img{
-    
+    border: 2px solid silver;
     border-radius: 50%;
 }
 .p6 img{
-    
+    border: 2px solid silver;
     border-radius: 50%;
 }
 .p1{
@@ -294,4 +328,54 @@ font-weight: 900;
 font-family: Inter;
 font-size: 14px;
 font-weight: 400;
+}
+.p2 p{
+    text-align: center;
+    color: silver;
+    font-size: 12px;
+font-weight: 600;
+}
+.run{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 40px;
+    gap: 2rem;
+}
+.run:hover{
+    background-color: slategray;
+}
+
+.running img{
+    border-radius: 20px;
+    
+    border:2px solid white;
+}
+.wrun{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.wrun button{
+padding:10px 50px;
+border-radius: 20px;
+color: whitesmoke;
+background-color:rgb(230, 83, 60); 
+font-size: 18px;
+font-weight: 600;
+
+}
+.wrun h3{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight:800;
+}
+.wrun p{
+    color: silver;
+    font-size: 18px;
+    font-weight:600;
+
 }
