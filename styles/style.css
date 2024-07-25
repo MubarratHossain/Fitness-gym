@@ -240,7 +240,7 @@ height: 4650px;
     display: flex;
     justify-content: space-evenly;
     padding: 30px 10px 5rem;
-    border: 2px solid white;
+    
     
 }
 .p2 h3{
@@ -249,18 +249,20 @@ height: 4650px;
     color: white;
 }
 .p3{
-    border: 2px solid white;
+    
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     gap: 2rem;
      
 }
 .p3:hover{
-    background-color: rgba(17, 16, 16, 0.527);
-}
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+  }
+
+
 .p4{
-    border: 2px solid white;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,10 +270,12 @@ height: 4650px;
     
 }
 .p4:hover{
-    background-color: rgba(17, 16, 16, 0.527);
-}
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+  }
+
+
 .p5{
-    border: 2px solid white;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,18 +283,20 @@ height: 4650px;
     
 }
 .p5:hover{
-    background-color: rgba(17, 16, 16, 0.527);
-}
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+  }
+
 .p6{
-    border: 2px solid white;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
-    .p6:hover{
-        background-color: rgba(17, 16, 16, 0.527);
-    }
+.p6:hover{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+  }
+ 
     
 .p3 img{
     border: 2px solid silver;
@@ -382,13 +388,18 @@ font-weight: 600;
 .training{
 display: flex;
 flex-direction: column;
-padding: 10px 30px;
-gap:1rem;
+padding:3rem;
+
 }
+.training:hover{
+    background-color: slategray;
+    
+    }
 .training h3,.training p{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     color: white;
+    padding: 10px 0px;
 }
 .training h3{
     font-size: 3rem;
@@ -400,9 +411,8 @@ gap:1rem;
 }
 .row-1{
     display: grid;
-    grid-template-columns: 0.6fr 1fr 0.7fr;
-    margin:1rem 0;
-    gap:1rem ;
+    grid-template-columns: 0.6fr 1.2fr 0.7fr;
+   
 }
 .row-1 img{
     width: 100%;
@@ -432,27 +442,450 @@ gap:1rem;
 }
 .pos1 img{
     outline: 100px solid rgba(6, 255, 210, 0.5);
-    object-fit: cover;
+    
     outline-offset: -100px;
-    overflow: hidden;
-    position: relative;
+   
     
   }
   .pos2 img{
     outline: 100px solid rgba(255, 0, 0, 0.3);
-    object-fit: cover;
+    
     outline-offset: -100px;
-    overflow: hidden;
-    position: relative;
+   
     
   }
   .pos3 img{
     outline: 100px solid rgba(0, 0, 0, 0.5);
-    object-fit: cover;
+    
     outline-offset: -100px;
-    overflow: hidden;
-    position: relative;
+    
    
   }
+  .row-2{
+    display: grid;
+    grid-template-columns: 0.8fr 0.4fr 0.7fr;
+    
+  }
+  .row-2 img{
+    width: 100%;
+    height: 200px;
+  }
+  .swr4{
+    top: 10%;
+    left:55%;
+ }
+ .swr5{
+    bottom: 5%;
+    left: 2%;
+ }
+ .swr6{
+     bottom: 8%;
+     left: 10%;
+ }
+ .pos4 img{
+    outline: 100px solid rgba(0, 0, 0, 0.5);
+    
+    outline-offset: -100px;
+    
+    
+    
+  }
+  .pos5 img{
+    outline: 100px solid rgba(66, 255, 0, 0.3);
+    
+    outline-offset: -100px;
+   
+    
+  }
+  .pos6 img{
+    outline: 100px solid rgba(0, 71, 255, 0.3);
+    
+    outline-offset: -100px;
+   
+   
+  }
+  .headerbmi{
+    padding:40px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    color: white; 
+  }
+  .headerbmi h3{
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+  .headerbmi p{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .chart{
+    padding:40px;
+    
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
 
+  }
+  .chart:hover{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+  }
+  .chart h3{
+  color: white;
+  
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 900;
+
+  }
+  .table{
+    padding: 20px;
+    border: 2px solid white;
+    width: 60%;
+    height: 450px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .div1{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+  }
+  .div1:hover{
+    background-color: black;
+  }
+  .div2{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .div2:hover{
+    background-color: black;
+  }
+  .div3{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+  }
+  .div3:hover{
+    background-color: black;
+  }
+  
+  .div4{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .div4:hover{
+    background-color: black;
+  }
+  .div5{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .div5:hover{
+    background-color:black;
+  }
+  .calculate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    width: 100%;
+  }
+  .compute{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    gap: 2.7rem;
+    
+    
+    
+  }
+  .compute:hover{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+  }
+  .compute h3{
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+    margin-left: 0.5rem;
+  }
+  .compute p{
+   font-size: 1rem;
+   color: white;
+   font-weight: 600;
+   margin-left: 0.5rem;
+  }
+  .inputfirst{
+  
+  display:flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem;
+  margin-left: 0.5rem;
+  }
+  .inputsecond{
+    
+    display:flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    margin-left: 0.5rem;
+    }
+    .inputthird{
+        
+        display:flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding: 1rem;
+        margin-left: 0.5rem;
+        }
+        .qwe{
+            
+            display:flex;
+            flex-direction: row;
+            gap: 2rem;
+            padding: 1rem;
+            margin-left: 0.5rem;
+            }
+            .inputfirst input{
+                
+                padding: 1rem;
+                backdrop-filter: blur(20px);
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 1rem;
+                color: white;
+                font-size: 1rem;
+                font-weight: 600;
+                
+                }
+                .inputsecond input,.inputsecond select{
+                
+                    padding: 1rem;
+                    backdrop-filter: blur(20px);
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 1rem;
+                    color: white;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    
+                    }
+                    .inputthird select{
+                
+                        padding: 1rem;
+                        backdrop-filter: blur(20px);
+                        background: rgba(255, 255, 255, 0.1);
+                        border-radius: 1rem;
+                        color: white;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        
+                        }
+                        .qwe button{
+
+                            padding: 1rem;
+                            backdrop-filter: blur(20px);
+                            background: rgb(230, 83, 60); 
+                            border-radius: 1.5rem;
+                            color: white;
+                            font-size: 1.5rem;
+                            font-weight: 600;                      
+
+                        }
+                        .row-3{
+                          display: grid;
+                          grid-template-columns: 1fr 1fr 1fr;
+                          gap: 1rem;
+                          margin: 10px 10px;
+                          padding: 1rem;
+                          
+                        }
+                        .row-3 img{
+                          width: 100%;
+                          height: 450px;
+                          border-radius: 1rem;
+                          
+                        }
+                        .row-4{
+                          display: grid;
+                          grid-template-columns: 1fr 1fr 1fr;
+                          gap: 1rem;
+                          margin: 10px 10px;
+                          padding: 1rem;
+                          
+                         }
+                         .row-4 img{
+                          width: 100%;
+                          height: 450px;
+                          border-radius: 1rem;
+                          
+                        }
+                        .likha{
+                          position: absolute;
+                          color: white;
+                          font-size: 25px;
+                        }
+                        .likha1{
+                          bottom: 55%;
+                          left: 2%;
+                        }
+                        .likha2{
+                          bottom:55%;
+                          left: 35%;
+                        } 
+ 
+                        .likha3{
+                          bottom: 55%;
+                          left: 70%;
+                        } 
+                        .likha4{
+                          bottom: 5%;
+                          left: 2%;
+                        } 
+                        .likha5{
+                          bottom: 5%;
+                          left: 35%;
+                        } 
+                        .likha6{
+                          bottom: 5%;
+                          left: 70%;
+                        } 
+                        .universe {
+                          position: relative;
+                          background-color: black;
+                        }
+                        .TopTop{
+                          color: white;
+                          
+                          display: flex;
+                          justify-content: center;
+                          flex-direction: column;
+                          align-items: center;
+                          gap: 1rem;
+
+                        }
+                        .TopTop h3{
+                         font-size: 3.5rem;
+                         font-weight:900;
+
+                        }
+                       .footer{
+                        display: grid;
+                        grid-template-columns: 3fr 2fr 2fr;
+                        height: 700px;
+                        gap: 10rem;
+                       }
+                       .footer1{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        margin-top: 5rem;
+                        align-items: center;
+                        gap: 2rem;
+                        }
+                       .footer2{
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 5rem;
+                        gap: 2rem;
+                        
+
+                        
+                       }
+                       .footer3{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        gap: 2rem;
+                        margin-top: 5rem;
+                       }
+                       .footer1 h3{
+                        font-size: 5rem;
+                        color:rgb(230, 83, 60);  
+                        font-style: italic;
+
+
+                       }
+                       .footer1 p{
+                         font-size: 1.5rem;
+                         color: silver;
+                        
+                       }
+                       .footer2 h3{
+                       font-size: 2rem;
+                       color: white; 
+
+                       }
+                       .footer3 h3{
+                        font-size: 2rem;
+                        color: white; 
+ 
+                        
+                        }
+                        .footer2 p{
+                          font-size: 1.5rem;
+                          color: silver;
+   
+                          }
+                          .footer3 p{
+                            font-size: 1.5rem;
+                            color:silver; 
+     
+                            }
+                            .pera{
+                              margin-left: 7rem;
+                            }
+                            .hr1{
+                              position: relative;
+                              left: 10rem;
+
+                            }
+                            .hr2{
+
+                            }
+                            .hr3{
+                              position: relative;
+                              right: 10rem;
+
+                            }
+                         
+                            .Copyri8{
+                             display: flex;
+                             justify-content: center;
+                              position: relative;
+                              bottom: 7rem;
+                              left: 31rem;
+                              color: silver;
+                              font-size: 1.2rem;
+                              font-weight: 600;
+                              
+                              margin-bottom: 5rem;
+                              
+                            }
+                            
+                   
+    
+  
+ 
