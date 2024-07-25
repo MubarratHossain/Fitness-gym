@@ -30,10 +30,12 @@ body{
 
 }
 .firstline1{
-    margin-left: 170px;
+    
     color:rgb(230, 83, 60);
     font-size:3rem;
     font-weight: 800;
+    font-style: italic;
+    
 
 }
 .firstline2{
@@ -89,7 +91,7 @@ body{
     
 }
 .leftside h3{
-    font-size: 78px;
+    font-size: 5rem;
     font-weight: 900;
     color: white;
 }
@@ -102,8 +104,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin:0px 15px;
-    padding: 0px 20px;
+    
     font-size: 25px;
     font-weight: 600;
     width: 500px;
@@ -114,10 +115,11 @@ body{
     border-radius: 30px;
     color: white;
     background-color: rgb(230, 83, 60); 
-    padding:0px 100px;
+    padding:0px 60px;
     display:flex;
     align-items: center;
     border: 1px solid silver;
+    cursor: pointer;
     
       
 }
@@ -125,11 +127,12 @@ body{
     border-radius: 30px;
     color: white;
     
-    padding:0px 100px;
+    padding:0px 60px;
     display:flex;
     align-items: center;
     background-color: black;
     border: 1px solid silver;
+    cursor: pointer;
    
     }
 .float{
@@ -231,7 +234,7 @@ body{
     padding: 20px 20px;
     /* Desktop - 1 */
 position: relative;
-height: 4650px;
+height: 4300px;
     
     
 }
@@ -372,6 +375,7 @@ color: whitesmoke;
 background-color:rgb(230, 83, 60); 
 font-size: 18px;
 font-weight: 600;
+cursor: pointer;
 
 }
 .wrun h3{
@@ -562,7 +566,7 @@ padding:3rem;
     padding: 1rem;
   }
   .div1:hover{
-    background-color: black;
+    background-color: rgb(230, 83, 60);
   }
   .div2{
     border: 2px solid white;
@@ -572,7 +576,7 @@ padding:3rem;
     padding: 1rem;
   }
   .div2:hover{
-    background-color: black;
+    background-color: rgb(230, 83, 60);
   }
   .div3{
     border: 2px solid white;
@@ -582,7 +586,7 @@ padding:3rem;
     padding: 1rem;
   }
   .div3:hover{
-    background-color: black;
+    background-color: rgb(230, 83, 60);
   }
   
   .div4{
@@ -593,7 +597,7 @@ padding:3rem;
     padding: 1rem;
   }
   .div4:hover{
-    background-color: black;
+    background-color: rgb(230, 83, 60);
   }
   .div5{
     border: 2px solid white;
@@ -603,7 +607,7 @@ padding:3rem;
     padding: 1rem;
   }
   .div5:hover{
-    background-color:black;
+    background-color:rgb(230, 83, 60);
   }
   .calculate{
     display: grid;
@@ -669,6 +673,11 @@ padding:3rem;
             gap: 2rem;
             padding: 1rem;
             margin-left: 0.5rem;
+            
+            }
+            .qwe button{
+              cursor: pointer;
+
             }
             .inputfirst input{
                 
@@ -717,7 +726,7 @@ padding:3rem;
                         .row-3{
                           display: grid;
                           grid-template-columns: 1fr 1fr 1fr;
-                          gap: 1rem;
+                          gap: 1.5rem;
                           margin: 10px 10px;
                           padding: 1rem;
                           
@@ -731,7 +740,7 @@ padding:3rem;
                         .row-4{
                           display: grid;
                           grid-template-columns: 1fr 1fr 1fr;
-                          gap: 1rem;
+                          gap: 1.5rem;
                           margin: 10px 10px;
                           padding: 1rem;
                           
@@ -744,37 +753,51 @@ padding:3rem;
                         }
                         .likha{
                           position: absolute;
-                          color: white;
+                          color: rgb(255, 255, 255);
                           font-size: 25px;
+                          
+                          
+                          
+                          
                         }
                         .likha1{
                           bottom: 55%;
-                          left: 2%;
+                          left: 5%;
+                          
+                          
                         }
+                        
                         .likha2{
                           bottom:55%;
-                          left: 35%;
+                          left: 36%;
                         } 
+                      
  
                         .likha3{
                           bottom: 55%;
-                          left: 70%;
+                          left: 68%;
+                          
                         } 
+                      
                         .likha4{
-                          bottom: 5%;
-                          left: 2%;
+                          bottom: 6%;
+                          left: 5%;
                         } 
+                        
                         .likha5{
-                          bottom: 5%;
-                          left: 35%;
+                          bottom: 6%;
+                          left: 36%;
                         } 
+                        
                         .likha6{
-                          bottom: 5%;
-                          left: 70%;
+                          bottom: 6%;
+                          left: 68%;
                         } 
+                       
                         .universe {
                           position: relative;
                           background-color: black;
+                          padding: 1rem 1rem;
                         }
                         .TopTop{
                           color: white;
@@ -847,11 +870,13 @@ padding:3rem;
                         .footer2 p{
                           font-size: 1.5rem;
                           color: silver;
+                          cursor: pointer;
    
                           }
                           .footer3 p{
                             font-size: 1.5rem;
                             color:silver; 
+                            cursor: pointer;
      
                             }
                             .pera{
