@@ -7,6 +7,9 @@
 }
 body{
     font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 0;
+    background-color: black;
     
 }
 .container{
@@ -931,6 +934,11 @@ padding:3rem;
 
                             
                             {
+                              .Body{
+                                margin-left: 500px;
+                                width: 100%;
+                                
+                              }
                           
                               
                           
@@ -943,7 +951,8 @@ padding:3rem;
                                
 
                                 height: 115rem;
-                            
+                                
+                               
                             }
                             .part2{
                               width: 92rem;
