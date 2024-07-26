@@ -1060,11 +1060,11 @@ padding:3rem;
                               right: 1rem;
                             }
                             .training{
-                              width: 53rem;
+                              width: 89rem;
                               position: relative;
-                              right:1rem ;
+                              right:1.5rem ;
                               gap: 2rem;
-                              top:1.5rem ;
+                              bottom:6.5rem;
                         
                             }
                             .row-1 img{
@@ -1072,7 +1072,7 @@ padding:3rem;
                               
                             }
                             .pos1 img{
-                              width: 350px;
+                              width: 550px;
                               outline: 100px solid rgba(6, 255, 210, 0.5);
                               
                               outline-offset: -100px;
@@ -1083,7 +1083,7 @@ padding:3rem;
                               outline: 100px solid rgba(255, 0, 0, 0.3);
                               
                               outline-offset: -100px;
-                              width: 450px;
+                              width: 750px;
                              
                               
                             }
@@ -1097,7 +1097,7 @@ padding:3rem;
                               outline: 100px solid rgba(0, 0, 0, 0.5);
                               
                               outline-offset: -100px;
-                              width: 330px;
+                              width: 530px;
                              
                             }
                             .pos5 img{
@@ -1105,7 +1105,8 @@ padding:3rem;
                               
                               outline-offset: -100px;
                              
-                             width: 470px; 
+                             width: 770px; 
+                             
                             }
                             .row-2{
                               position: relative;
