@@ -7,6 +7,7 @@
 }
 body{
     font-family: "Inter", sans-serif;
+    
 }
 .container{
   
@@ -798,8 +799,14 @@ padding:3rem;
                        
                         .universe {
                           position: relative;
+                          bottom: 2rem;
                           
                           padding: 1rem 1rem;
+                           background-color: gray;
+                        }
+                        .sc{
+
+                        height: 1250px;  
                         }
                         .TopTop{
                           color: white;
@@ -809,6 +816,7 @@ padding:3rem;
                           flex-direction: column;
                           align-items: center;
                           gap: 1rem;
+                          margin-top: 1rem;
 
                         }
                         .TopTop h3{
@@ -816,6 +824,11 @@ padding:3rem;
                          font-weight:900;
 
                         }
+                        .TopTop p{
+                          font-size: 1.5rem;
+                          
+ 
+                         }
                        .footer{
                         display: grid;
                         grid-template-columns: 3fr 2fr 2fr;
@@ -915,6 +928,8 @@ padding:3rem;
                               display: none;
                             }
                             @media  screen and (max-width:576px) 
+
+                            
                             {
                           
                               
@@ -1128,6 +1143,58 @@ padding:3rem;
                             .chart{
                               margin-top: 20rem;
                             }
+                            .chart h3{
+                              font-size: 3rem;
+                            }
+                            .table{
+                              font-size: 1.4rem;
+                              border: 2px solid white;
+                              height: 610px;
+                            }
+                            .compute{
+                            position: relative;
+                            left: 2rem;
+                            bottom:1rem ;
+
+                            }
+                            .c-head h3{
+                            font-size:3rem;
+                            }
+                            .c-head p{
+                              font-size:2rem;
+                              }
+                              .inputfirst input{
+
+                              padding: 2rem;
+                              font-size: 2rem;
+                              
+                              }
+                              .inputsecond input{
+
+                                padding: 2rem;
+                                font-size: 2rem;
+                                
+                                }
+                                .inputsecond select{
+
+                                  padding: 2rem;
+                                  font-size: 2rem;
+                                  
+                                  }
+                                  .inputthird select{
+
+                                    padding: 2rem;
+                                    font-size: 2rem;
+                                    
+                                    }
+                                    .qwe button{
+                                     padding: 2rem 5rem;
+                                     font-size: 2rem;
+                                     border-radius: 50px;   
+                                                                           
+                                    }
+                                  
+
                             .headerbmi{
                               position: relative;
                               top: 25rem;
