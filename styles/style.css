@@ -1114,9 +1114,9 @@ padding:3rem;
                             }
                             .BMI{
                               position: relative;
-                              bottom: 25rem;
+                              bottom: 34.8rem;
                               width: 30rem;
-                              right: 1rem;
+                              left: -1rem;
                               height: 123.5rem;
                               
                             }
@@ -1135,22 +1135,25 @@ padding:3rem;
                             .sc{
                               display: flex;
                               position: relative;
-                              bottom: 30rem;
+                              bottom: 25rem;
                               right: 1rem;
                               height: 100%;
                               flex-direction: column;
                               
                             }
                             .universe{
-                              width: 40rem;
+                              width: 60rem;
                               padding-bottom: 0px;
                               
                             
                               
 
                             }
+                            .TopTop{
+                              margin-top: 1rem;
+                            }
                             .TopTop p{
-                              font-size: 1.5rem;
+                              font-size: 2rem;
                               color: silver;
 
                             }
@@ -1159,7 +1162,7 @@ padding:3rem;
                               grid-template-columns: 1fr;
                             }
                             .row-3 img{
-                              height: 360px;
+                              height: 410px;
                             }
                             .chobi4{
                               display: none;
@@ -1173,14 +1176,14 @@ padding:3rem;
 
                             }
                             .row-4 img{
-                              height: 360px;
+                              height: 410px;
                               
                             }
                            .likha1{
                             display: flex;
                             flex-direction: column;
                             position: absolute;
-                            top: 20rem;
+                            top: 23rem;
                             left: 3rem;
                            
                           
@@ -1189,7 +1192,7 @@ padding:3rem;
                             display: flex;
                             flex-direction: column;
                             position: absolute;
-                            top: 43rem;
+                            top: 50rem;
                             left: 3rem;
                             
                             
@@ -1199,7 +1202,7 @@ padding:3rem;
                            .likha3{
                            
                             position:absolute;
-                            top: 67rem;
+                            top: 78rem;
                             left: 3rem;
                            
                             
@@ -1209,6 +1212,7 @@ padding:3rem;
                            .likha6{
                             position: absolute;
                             left: 3rem;
+
                            
                            }.likha1 h3{
                             
@@ -1232,6 +1236,7 @@ padding:3rem;
                             top: 547rem;
                             display: grid;
                             grid-template-columns: 1fr;
+                            display: none;
                            }
                            .footer1{
                             margin-right: 3.5rem;
@@ -1245,6 +1250,7 @@ padding:3rem;
                            align-items: center;
                            position: relative;
                            bottom: 10rem;
+                           
                                                 
 
                            }
@@ -1286,6 +1292,7 @@ padding:3rem;
                             bottom: 18rem;
                             right: 56rem;
                             font-size: 2rem;
+                            
                             
 
                             
