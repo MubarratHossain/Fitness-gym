@@ -1035,9 +1035,10 @@ padding:3rem;
                              .run{
                               display: grid;
                               grid-template-columns: 1fr;
-                              width: 55rem;
+                              width: 90rem;
+                              
                               position:relative;
-                              top: 10rem;
+                              top: 3.8rem;
                               right: 1.5rem;
                               
 
@@ -1045,6 +1046,14 @@ padding:3rem;
                             .wrun{
                               position: relative;
                               right: 1rem;
+                              gap: 3rem;
+                            }
+                           
+                            .wrun p{
+                              font-size: 2rem;
+                            }
+                            .wrun button{
+                              font-size: 2.5rem;
                             }
                             .running{
                               position: relative;
