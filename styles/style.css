@@ -9,6 +9,7 @@ body{
     font-family: "Inter", sans-serif;
 }
 .container{
+  
     width: 90%;
     margin: 5rem auto;
     border-radius: 1rem;
@@ -797,7 +798,7 @@ padding:3rem;
                        
                         .universe {
                           position: relative;
-                          background-color: black;
+                          
                           padding: 1rem 1rem;
                         }
                         .TopTop{
@@ -919,25 +920,31 @@ padding:3rem;
                               
                           
                               .container{
-                                width: 59rem;
+                                width: 94rem;
                                 
                                 border-radius: 1rem;
                                 
                                 background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
                                
 
-                                height: 100rem;
+                                height: 115rem;
                             
                             }
                             .part2{
-                              width: 57rem;
-                              height: 120rem;
+                              width: 92rem;
+                              height: 230rem;
+                              position: absolute;
+                              top: 115rem;
+
                               
                             }
+                            .p2 img{
+                              height: 500px;
+                            }
                             .firstline1{
-                              font-size: 4rem;
-                              margin-top: 1rem;
-                              margin-left: 5rem
+                              font-size: 5rem;
+                              margin-top: 2rem;
+                              margin-left: 15rem
                               ;
                             }
                             .firstline2{
@@ -945,8 +952,9 @@ padding:3rem;
                             }
                             .leftside{
                              position: relative;
-                             bottom: 5rem;
-                             left: 5rem;
+                             bottom: 3rem;
+                             left: 15rem;
+                             margin-top: 5rem;
                             
 
                             }
@@ -957,28 +965,56 @@ padding:3rem;
                               font-size: 2.5rem;
                             }
                             .twobutton{
-                              gap: 10rem;
+                              height: 5rem;
+                              
                             }
                             .btn1{
-                              font-size: 1.2rem;
+                              font-size: 2rem;
                               padding: 0px 100px;
                             
                          
                             }
                             .btn2{
-                              font-size: 1.2rem;
+                              font-size: 2rem;
                               padding: 0px 100px;
                               
                             }
                             .pic1{ 
                               position: relative;
-                              right: 45.5rem;
-                              top: 42rem;
-
-
+                              right: 39rem;
+                              top: 55rem;
                             }
+                            .pic2{
+                              width: 400px;
+                            }
+                            .float{
+                              position: relative;
+                              bottom: 35rem;
+                              left: 250px;
+                            }
+                            .float h3{
+                              font-size: 3rem;
+                            }
+                            .float p{
+                              font-size: 2rem;
+                            }
+                            .float2{
+                              position: relative;
+                              top: -400px;
+                              right: 8rem;
+                            }
+                            .float2 h4{
+                              font-size: 3rem;
+                            }
+                            .float2 p{
+                              font-size: 2rem;
+                            }
+                            .p1 h3{
+                              font-size: 4rem;
+                            }
+
                             .p1 p{
-                              font-size: 1.7rem;
+                              font-size: 3rem;
                               margin-top: 1rem;
                               margin-left: 2rem;
                               
@@ -989,10 +1025,10 @@ padding:3rem;
                               gap:3rem;
                             }
                             .p2 h3{
-                              font-size: 2rem;
+                              font-size: 3rem;
                             }
                             .p2 p{
-                              font-size: 1rem;
+                              font-size: 2rem;
                             }
                           
                               
