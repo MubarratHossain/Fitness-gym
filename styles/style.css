@@ -558,6 +558,7 @@ padding:3rem;
     flex-direction: column;
     gap: 2rem;
   }
+  
   .div1{
     border: 2px solid white;
     color: white;
@@ -909,13 +910,16 @@ padding:3rem;
                               margin-bottom: 5rem;
                               
                             }
+                            .Copyri82{
+                              display: none;
+                            }
                             @media  screen and (max-width:576px) 
                             {
                           
                               
                           
                               .container{
-                                width: 35.5rem;
+                                width: 59rem;
                                 
                                 border-radius: 1rem;
                                 
@@ -926,38 +930,50 @@ padding:3rem;
                             
                             }
                             .part2{
-                              width: 33.5rem;
+                              width: 57rem;
                               height: 120rem;
                               
                             }
                             .firstline1{
-                              font-size: 3rem;
+                              font-size: 4rem;
+                              margin-top: 1rem;
+                              margin-left: 5rem
+                              ;
                             }
                             .firstline2{
                               display: none;
                             }
                             .leftside{
                              position: relative;
-                             bottom: 100px;
+                             bottom: 5rem;
+                             left: 5rem;
+                            
 
                             }
                             .leftside h3{
-                              font-size: 4rem;
+                              font-size: 5rem;
                             }
                             .leftside p{
-                              font-size: 2rem;
+                              font-size: 2.5rem;
+                            }
+                            .twobutton{
+                              gap: 10rem;
                             }
                             .btn1{
                               font-size: 1.2rem;
+                              padding: 0px 100px;
+                            
                          
                             }
                             .btn2{
                               font-size: 1.2rem;
+                              padding: 0px 100px;
+                              
                             }
                             .pic1{ 
                               position: relative;
-                              right: 58rem;
-                              top: 40rem;
+                              right: 45.5rem;
+                              top: 42rem;
 
 
                             }
@@ -978,15 +994,16 @@ padding:3rem;
                             .p2 p{
                               font-size: 1rem;
                             }
-                            .footer{
-                              display: none;
-                            }
-                            .run{
+                          
+                              
+                             .run{
                               display: grid;
                               grid-template-columns: 1fr;
-                              width: 31rem;
-                              position: relative;
-                              right: 1rem;
+                              width: 55rem;
+                              position:relative;
+                              top: 10rem;
+                              right: 1.5rem;
+                              
 
                             }
                             .wrun{
@@ -998,10 +1015,11 @@ padding:3rem;
                               right: 1rem;
                             }
                             .training{
-                              width: 30rem;
+                              width: 53rem;
                               position: relative;
                               right:1rem ;
                               gap: 2rem;
+                              top:1.5rem ;
                         
                             }
                             .row-1 img{
@@ -1009,7 +1027,7 @@ padding:3rem;
                               
                             }
                             .pos1 img{
-                              width: 250px;
+                              width: 350px;
                               outline: 100px solid rgba(6, 255, 210, 0.5);
                               
                               outline-offset: -100px;
@@ -1020,7 +1038,7 @@ padding:3rem;
                               outline: 100px solid rgba(255, 0, 0, 0.3);
                               
                               outline-offset: -100px;
-                              width: 250px;
+                              width: 450px;
                              
                               
                             }
@@ -1034,7 +1052,7 @@ padding:3rem;
                               outline: 100px solid rgba(0, 0, 0, 0.5);
                               
                               outline-offset: -100px;
-                              width: 230px;
+                              width: 330px;
                              
                             }
                             .pos5 img{
@@ -1042,7 +1060,7 @@ padding:3rem;
                               
                               outline-offset: -100px;
                              
-                             width: 270px; 
+                             width: 470px; 
                             }
                             .row-2{
                               position: relative;
@@ -1078,11 +1096,16 @@ padding:3rem;
                               
                             }
                             .universe{
-                              width: 30rem;
+                              width: 40rem;
                               padding-bottom: 0px;
                               
                             
                               
+
+                            }
+                            .TopTop p{
+                              font-size: 1.5rem;
+                              color: silver;
 
                             }
                             .row-3{
@@ -1090,7 +1113,7 @@ padding:3rem;
                               grid-template-columns: 1fr;
                             }
                             .row-3 img{
-                              height: 350px;
+                              height: 360px;
                             }
                             .chobi4{
                               display: none;
@@ -1104,7 +1127,7 @@ padding:3rem;
 
                             }
                             .row-4 img{
-                              height: 350px;
+                              height: 360px;
                               
                             }
                            .likha1{
@@ -1158,7 +1181,70 @@ padding:3rem;
                             
                             background: rgba(0, 0, 0, 0.2);
                            }
+                           .footer{
+                            position: absolute;
+                            top: 547rem;
+                            display: grid;
+                            grid-template-columns: 1fr;
+                           }
+                           .footer1{
+                            margin-right: 3.5rem;
+                           }
+                           .pera p{
+                            font-size: 2rem;
+                           }
+                           .footer2{
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                           position: relative;
+                           bottom: 10rem;
+                                                
 
+                           }
+                           .footer2 h3{
+                            font-size: 3rem;
+                           }
+                           .footer2 p{
+                            font-size: 2rem;
+                           }
+                           .footer3{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            
+                          
+                            position: relative;
+                            bottom:20rem;
+                           }
+                           .footer3 h3{
+                            font-size: 3rem;
+                           }
+                           .footer3 p{
+                            font-size: 2rem;
+                           }
+                           .hr2{
+                            display: none;
+                           }
+                           .hr3{
+                            position: relative;
+                            bottom: 25.1rem;
+                           }
+                           .hr1{
+                           position: relative;
+                           bottom: 15rem;
+                           
+                           }
+                           .Copyri8 h2{
+                            position:absolute;
+                            bottom: 18rem;
+                            right: 56rem;
+                            font-size: 2rem;
+                            
 
-  
+                            
+                           }
+                           
+
+                          }
  
