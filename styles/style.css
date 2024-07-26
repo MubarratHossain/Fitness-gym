@@ -1162,7 +1162,7 @@ padding:3rem;
                               grid-template-columns: 1fr;
                             }
                             .row-3 img{
-                              height: 410px;
+                              height: 415px;
                             }
                             .chobi4{
                               display: none;
@@ -1176,7 +1176,7 @@ padding:3rem;
 
                             }
                             .row-4 img{
-                              height: 410px;
+                              height: 415px;
                               
                             }
                            .likha1{
@@ -1233,10 +1233,10 @@ padding:3rem;
                            }
                            .footer{
                             position: absolute;
-                            top: 547rem;
+                            top: 704.5rem;
                             display: grid;
                             grid-template-columns: 1fr;
-                            display: none;
+                            
                            }
                            .footer1{
                             margin-right: 3.5rem;
@@ -1290,7 +1290,7 @@ padding:3rem;
                            .Copyri8 h2{
                             position:absolute;
                             bottom: 18rem;
-                            right: 56rem;
+                            right: 61rem;
                             font-size: 2rem;
                             
                             
