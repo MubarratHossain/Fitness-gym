@@ -73,6 +73,9 @@ body{
  font-weight: 600;
  cursor: pointer;
 }
+.hamburger{
+  display: none;
+}
 .section1{
    
     display: grid;
@@ -152,6 +155,7 @@ body{
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     color: white;
+    border: 1px solid silver;
     
     
      
@@ -170,8 +174,9 @@ body{
     right: 5rem;
     bottom:15rem;
     
-    margin-right: 23rem;
-    padding: 10px 20px;
+    margin-right: 100%;
+    
+    padding: 5px 5px;
     border-radius: 15px;
     display: flex;
     gap: 1rem;
@@ -180,6 +185,8 @@ body{
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     color: white;
+    border: 1px solid salmon;
+    
     
 }
 .float2 h4{
@@ -196,7 +203,19 @@ body{
     width: 70px;
     border-radius: 50px;
     background-color: rgb(230, 83, 60); 
+    
+    
+    
 }
+.youtube{
+  position: absolute;
+  left: 1.1rem;
+  
+}
+.youtube i{
+  font-size: 2rem;
+}
+
 .pic1{
     position: relative;
     right: 8rem;
@@ -216,6 +235,7 @@ body{
     align-items: center;    
     position: relative;
     top: 2rem;
+    height: 100%;
 }
 .designletter{
 
@@ -930,450 +950,525 @@ padding:3rem;
                             .Copyri82{
                               display: none;
                             }
-                            @media  screen and (max-width:576px) 
+                           
+                            
+                           
+                              
+                             @media  screen and (max-width:576px) 
 
                             
-                            {
-                              .Body{
-                                margin-left: 500px;
-                                width: 100%;
-                                
-                              }
-                          
-                              
-                          
-                              .container{
-                                width: 94rem;
-                                
-                                border-radius: 1rem;
-                                
-                                background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+                             {
+                               .Body{
+                                width: 275vw;
+                                margin: 0;
                                
-
-                                height: 115rem;
-                                
+                                 
+                              
+                                 
+                               }
+                           
                                
-                            }
-                            .part2{
-                              width: 92rem;
-                              height: 230rem;
-                              position: absolute;
-                              top: 115rem;
-
-                              
-                            }
-                            .p2 img{
-                              height: 500px;
-                            }
-                            .firstline1{
-                              font-size: 5rem;
-                              margin-top: 2rem;
-                              margin-left: 15rem
-                              ;
-                            }
-                            .firstline2{
-                              display: none;
-                            }
-                            .leftside{
-                             position: relative;
-                             bottom: 3rem;
-                             left: 15rem;
-                             margin-top: 5rem;
-                            
-
-                            }
-                            .leftside h3{
-                              font-size: 5rem;
-                            }
-                            .leftside p{
-                              font-size: 2.5rem;
-                            }
-                            .twobutton{
-                              height: 5rem;
-                              
-                            }
-                            .btn1{
-                              font-size: 2rem;
-                              padding: 0px 100px;
-                            
-                         
-                            }
-                            .btn2{
-                              font-size: 2rem;
-                              padding: 0px 100px;
-                              
-                            }
-                            .pic1{ 
+                           
+                               .container{
+                                 width:100%;
+                                 
+                                 border-radius: 1rem;
+                                 
+                                 background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+                                
+ 
+                                 height: 145rem;
+                                 border: 2px solid red;
+                                 margin: 0;
+                                 
+                                 
+                                
+                                 
+                                 
+                                 
+                                
+                             } 
+                             .hamburger{
                               position: relative;
-                              right: 39rem;
-                              top: 55rem;
-                            }
-                            .pic2{
-                              width: 400px;
-                            }
-                            .float{
-                              position: relative;
-                              bottom: 35rem;
-                              left: 250px;
-                            }
-                            .float h3{
-                              font-size: 3rem;
-                            }
-                            .float p{
-                              font-size: 2rem;
-                            }
-                            .float2{
-                              position: relative;
-                              top: -400px;
-                              right: 8rem;
-                            }
-                            .float2 h4{
-                              font-size: 3rem;
-                            }
-                            .float2 p{
-                              font-size: 2rem;
-                            }
-                            .p1 h3{
+                              display: block;
+                              color: white;
+                              top: .5rem;
+                              
+                             
+                              
+                            } 
+                             .hamburger i{
                               font-size: 4rem;
-                            }
-
-                            .p1 p{
-                              font-size: 3rem;
-                              margin-top: 1rem;
-                              margin-left: 2rem;
-                              
-                            }
-                            .p2{
-                              display: flex;
-                              flex-direction: column;
-                              gap:3rem;
-                            }
-                            .p2 h3{
-                              font-size: 3rem;
-                            }
-                            .p2 p{
-                              font-size: 2rem;
-                            }
+                             }
+                             .part2{
+                               width: 94.5rem;
+                               height: 220rem;
+                               position: absolute;
+                               top: 150rem;
+                               left: 6.5px;
+ 
+                               
+                             }
+                             .p2 img{
+                               height: 500px;
+                             }
+                             .firstline1{
+                               font-size: 5rem;
+                               margin-top: 2rem;
+                               margin-left: 15rem
+                               ;
+                             }
+                             .firstline2{
+                               display: none;
+                             }
+                             .leftside{
+                              position: relative;
+                              bottom: 3rem;
+                              left: 15rem;
+                              margin-top:2rem;
+                             
+ 
+                             }
+                             .leftside h3{
+                               font-size: 5rem;
+                             }
+                             .leftside p{
+                               font-size: 2.5rem;
+                             }
+                             .twobutton{
+                               height: 5rem;
+                               
+                             }
+                             .btn1{
+                               font-size: 2rem;
+                               padding: 0px 100px;
+                             
                           
-                              
-                             .run{
-                              display: grid;
-                              grid-template-columns: 1fr;
-                              width: 90rem;
-                              
-                              position:relative;
-                              top: 3.8rem;
-                              right: 1.5rem;
-                              
-
-                            }
-                            .wrun{
-                              position: relative;
-                              right: 1rem;
-                              gap: 3rem;
-                            }
+                             }
+                             .btn2{
+                               font-size: 2rem;
+                               padding: 0px 100px;
+                               
+                             }
+                             .pic1{ 
+                               position: absolute;
+                               
+                               top: 77rem;
+                               left: 20rem;
+                               width: 100%;
+                               height: 1070px;
+                               margin: 0;
+                               padding: 0;
+                             }
+                             .pic2{
+                               width: 100%;
+                             }
+                             .float{
+                               position: relative;
+                               bottom: 45rem;
+                               left: 350px;
+                             }
+                             .float h3{
+                               font-size: 3rem;
+                             }
+                             .float p{
+                               font-size: 2rem;
+                             }
+                             .float2{
+                               position: relative;
+                               top: -400px;
+                               right: 8rem;
+                               padding-left: 15px;
+                             }
+                             .float2 h4{
+                               font-size: 3rem;
+                             }
+                             .ball{
+                              height: 100px;
+                              width: 130px;
+                             }
+                             .youtube i{
+                              font-size: 4rem;
+                              position: absolute;
+                              right: -5.3rem;
+                              top: -2rem;
+                             }
+                             .float2 p{
+                               font-size: 2rem;
+                             }
+                             .p1 h3{
+                               font-size: 4rem;
+                             }
+ 
+                             .p1 p{
+                               font-size: 3rem;
+                               margin-top: 1rem;
+                               margin-left: 2rem;
+                               
+                             }
+                             .p2{
+                               display: flex;
+                               flex-direction: column;
+                               gap:3rem;
+                             }
+                             .p2 h3{
+                               font-size: 3rem;
+                             }
+                             .p2 p{
+                               font-size: 2rem;
+                             }
                            
-                            .wrun p{
-                              font-size: 2rem;
-                            }
-                            .wrun button{
-                              font-size: 2.5rem;
-                            }
-                            .running{
-                              position: relative;
-                              right: 1rem;
-                            }
-                            .training{
-                              width: 89rem;
-                              position: relative;
-                              right:1.5rem ;
-                              gap: 2rem;
-                              bottom:6.5rem;
-                        
-                            }
-                            .row-1 img{
-                              position: relative;
+                               
+                              .run{
+                               display: grid;
+                               grid-template-columns: 1fr;
+                               width: 89rem;
+                              position: absolute;
+                              top: 225rem;
+                              height: 60rem;
+                               
+                               
+ 
+                             }
+                             .wrun{
+                               position: relative;
+                               right: 1rem;
+                               gap: 3rem;
+                               
+                             }
+                            
+                             .wrun p{
+                               font-size: 2rem;
+                             }
+                             .wrun button{
+                               font-size: 2.5rem;
+                             }
+                             .running{
+                               position: relative;
+                               right: 1rem;
+                             }
+                             .training{
+                               width: 88rem;
+                               position: absolute;
+                               
+                               gap: 2rem;
+                               top: 300rem;
+                               height: 40rem;
+                         
+                             }
+                             .row-1 img{
+                               position: relative;
+                               
+                             }
+                             .pos1 img{
+                               width: 550px;
+                               outline: 100px solid rgba(6, 255, 210, 0.5);
+                               
+                               outline-offset: -100px;
                               
-                            }
-                            .pos1 img{
-                              width: 550px;
-                              outline: 100px solid rgba(6, 255, 210, 0.5);
+                               
+                             }
+                             .pos2 img{
+                               outline: 100px solid rgba(255, 0, 0, 0.3);
+                               
+                               outline-offset: -100px;
+                               width: 750px;
                               
-                              outline-offset: -100px;
+                               
+                             }
+                             .pos3{
+                               display: none;
+                             }
+                             .pos6{
+                               display: none;
+                             }
+                             .pos4 img{
+                               outline: 100px solid rgba(0, 0, 0, 0.5);
+                               
+                               outline-offset: -100px;
+                               width: 530px;
+                              
+                             }
+                             .pos5 img{
+                               outline: 100px solid rgba(66, 255, 0, 0.3);
+                               
+                               outline-offset: -100px;
+                              
+                              width: 770px; 
+                              
+                             }
+                             .row-2{
+                               position: relative;
+                               bottom: 2.5rem;
+                             }
+                             .BMI{
+                               position: absolute;
+                               top: 340rem;
+                               width: 93rem;
+                               
+                               height: 123.5rem;
+                               
+                               
+                             }
+                             .calculate{
+                               display: grid;
+                               grid-template-columns: 1fr ;
+                               padding-right:1rem;
+                               
+                               
+                             }
+                             .chart{
+                               margin-top:20rem ;
+                             }
+                             .chart h3{
+                               font-size: 3rem;
+                             }
+                             .table{
+                               font-size: 1.4rem;
+                               border: 2px solid white;
+                               height: 610px;
+                             }
+                             .compute{
+                             position: relative;
                              
-                              
-                            }
-                            .pos2 img{
-                              outline: 100px solid rgba(255, 0, 0, 0.3);
-                              
-                              outline-offset: -100px;
-                              width: 750px;
+                             bottom:5rem ;
                              
-                              
-                            }
-                            .pos3{
-                              display: none;
-                            }
-                            .pos6{
-                              display: none;
-                            }
-                            .pos4 img{
-                              outline: 100px solid rgba(0, 0, 0, 0.5);
-                              
-                              outline-offset: -100px;
-                              width: 530px;
-                             
-                            }
-                            .pos5 img{
-                              outline: 100px solid rgba(66, 255, 0, 0.3);
-                              
-                              outline-offset: -100px;
-                             
-                             width: 770px; 
-                             
-                            }
-                            .row-2{
-                              position: relative;
-                              bottom: 2.5rem;
-                            }
-                            .BMI{
-                              position: relative;
-                              bottom: 34.8rem;
-                              width: 30rem;
-                              left: -1rem;
-                              height: 123.5rem;
-                              
-                            }
-                            .calculate{
-                              display: grid;
-                              grid-template-columns: 1fr ;
-                              
-                            }
-                            .chart{
-                              margin-top: 20rem;
-                            }
-                            .chart h3{
-                              font-size: 3rem;
-                            }
-                            .table{
-                              font-size: 1.4rem;
-                              border: 2px solid white;
-                              height: 610px;
-                            }
-                            .compute{
-                            position: relative;
-                            left: 2rem;
-                            bottom:1rem ;
-
-                            }
-                            .c-head h3{
-                            font-size:3rem;
-                            }
-                            .c-head p{
-                              font-size:2rem;
-                              }
-                              .inputfirst input{
-
-                              padding: 2rem;
-                              font-size: 2rem;
-                              
-                              }
-                              .inputsecond input{
-
-                                padding: 2rem;
-                                font-size: 2rem;
-                                
-                                }
-                                .inputsecond select{
-
-                                  padding: 2rem;
-                                  font-size: 2rem;
-                                  
-                                  }
-                                  .inputthird select{
-
-                                    padding: 2rem;
-                                    font-size: 2rem;
-                                    
-                                    }
-                                    .qwe button{
-                                     padding: 2rem 5rem;
+ 
+                             }
+                             .c-head h3{
+                             font-size:3rem;
+                             }
+                             .c-head p{
+                               font-size:2rem;
+                               }
+                               .inputfirst input{
+ 
+                               padding: 2rem;
+                               font-size: 2rem;
+                               
+                               }
+                               .inputsecond input{
+ 
+                                 padding: 2rem;
+                                 font-size: 2rem;
+                                 
+                                 }
+                                 .inputsecond select{
+ 
+                                   padding: 2rem;
+                                   font-size: 2rem;
+                                   
+                                   }
+                                   .inputthird select{
+ 
+                                     padding: 2rem;
                                      font-size: 2rem;
-                                     border-radius: 50px;   
-                                                                           
-                                    }
-                                  
+                                     
+                                     }
+                                     .qwe button{
+                                      padding: 2rem 5rem;
+                                      font-size: 2rem;
+                                      border-radius: 50px;   
+                                                                            
+                                     }
+                                   
+ 
+                             .headerbmi{
+                               position: relative;
+                               top: 15rem;
+                             }
+                             .sc{
+                               display: flex;
+                               position: absolute;
+                               top: 500rem;
+                               left: 0.4rem;
+                               height: 100%;
+                               flex-direction: column;
+                               width: 95.5rem;
+                               
+                               
+                             }
+                             .universe{
+                               width: 60rem;
+                               padding-bottom: 0px;
+                               position: absolute;
+                               display: flex;
+                               flex-direction: column;
+                               
+                               left: 15rem;
+                               top: 15rem;
+                               justify-content: flex-start;
+                               height: 195rem;
+                               background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+                               
+                             
+                               
+ 
+                             }
+                             .TopTop{
+                               margin-top: 1rem;
+                             }
+                             .TopTop p{
+                               font-size: 2rem;
+                               color: silver;
+ 
+                             }
+                             .row-3{
+                               display: grid;
+                               grid-template-columns: 1fr;
+                               gap: 3rem;
+                             }
+                             .row-3 img{
+                               height: 700px;
+                               
+                             }
+                             .chobi4{
+                               display: none;
+                             }
+                             .chobi5{
+                               display: none;
+                             }
+                             .row-4{
+                               display: grid;
+                               grid-template-columns: 1fr;
+ 
+                             }
+                             .row-4 img{
+                               height: 700px;
+                               
+                             }
+                            .likha1{
+                             display: flex;
+                             flex-direction: column;
+                             position: absolute;
+                             top: 38rem;
+                             left: 5rem;
+                             font-size: 2.5rem;
 
-                            .headerbmi{
-                              position: relative;
-                              top: 25rem;
-                            }
-                            .sc{
-                              display: flex;
-                              position: relative;
-                              bottom: 25rem;
-                              right: 1rem;
-                              height: 100%;
-                              flex-direction: column;
-                              
-                            }
-                            .universe{
-                              width: 60rem;
-                              padding-bottom: 0px;
-                              
                             
-                              
-
-                            }
-                            .TopTop{
-                              margin-top: 1rem;
-                            }
-                            .TopTop p{
-                              font-size: 2rem;
-                              color: silver;
-
-                            }
-                            .row-3{
-                              display: grid;
-                              grid-template-columns: 1fr;
-                            }
-                            .row-3 img{
-                              height: 415px;
-                            }
-                            .chobi4{
-                              display: none;
-                            }
-                            .chobi5{
-                              display: none;
-                            }
-                            .row-4{
-                              display: grid;
-                              grid-template-columns: 1fr;
-
-                            }
-                            .row-4 img{
-                              height: 415px;
-                              
-                            }
-                           .likha1{
-                            display: flex;
-                            flex-direction: column;
-                            position: absolute;
-                            top: 23rem;
-                            left: 3rem;
                            
-                          
-                           }
-                           .likha2{
-                            display: flex;
-                            flex-direction: column;
-                            position: absolute;
-                            top: 50rem;
-                            left: 3rem;
-                            
-                            
-
-                          
-                           }
-                           .likha3{
+                            }
+                            .likha2{
+                             display: flex;
+                             flex-direction: column;
+                             position: absolute;
+                             top: 84rem;
+                             left: 5rem;
+                             font-size: 2.5rem;
+                             
+                             
+ 
                            
-                            position:absolute;
-                            top: 78rem;
-                            left: 3rem;
-                           
+                            }
+                            .likha3{
                             
+                             position:absolute;
+                             top: 130rem;
+                             left: 5rem;
+                             font-size: 2.5rem;
+                             
+                             
+ 
+                            }
+                            .likha6{
+                             position: absolute;
+                             left: 5rem;
+                             top:178rem ;
+                             font-size: 2.5rem;
+ 
                             
-
-                           }
-                           .likha6{
-                            position: absolute;
-                            left: 3rem;
-
-                           
-                           }.likha1 h3{
-                            
-                            background: rgba(0, 0, 0, 0.2);
-                           }.likha2 h3{
-                            
-                            background: rgba(0, 0, 0, 0.2);
-                           }
-
-
-                           .likha3 h3{
-                            
-                            background: rgba(0, 0, 0, 0.2);
-                           }
-                           .likha6 h3{
-                            
-                            background: rgba(0, 0, 0, 0.2);
-                           }
-                           .footer{
-                            position: absolute;
-                            top: 704.5rem;
-                            display: grid;
-                            grid-template-columns: 1fr;
-                            
-                           }
-                           .footer1{
+                            }.likha1 h3{
+                             
+                             background: rgba(0, 0, 0, 0.2);
+                            }.likha2 h3{
+                             
+                             background: rgba(0, 0, 0, 0.2);
+                            }
+ 
+ 
+                            .likha3 h3{
+                             
+                             background: rgba(0, 0, 0, 0.2);
+                            }
+                            .likha6 h3{
+                             
+                             background: rgba(0, 0, 0, 0.2);
+                            }
+                            .footer{
+                             position: absolute;
+                             top: 875rem;
+                             width: 56rem;
+                             display: grid;
+                             grid-template-columns: 1fr;
+                             left: 10rem;
+                             height: 100rem;
+                             
+                             
+                             
+                            }
+                            .footer1{
                             margin-right: 3.5rem;
-                           }
-                           .pera p{
-                            font-size: 2rem;
-                           }
-                           .footer2{
-                           display: flex;
-                           justify-content: center;
-                           align-items: center;
-                           position: relative;
-                           bottom: 10rem;
-                           
-                                                
-
-                           }
-                           .footer2 h3{
-                            font-size: 3rem;
-                           }
-                           .footer2 p{
-                            font-size: 2rem;
-                           }
-                           .footer3{
+                            display: flex;
+                            align-items: baseline;
+                            }
+                            .pera p{
+                             font-size: 2rem;
+                            }
+                            .footer2{
                             display: flex;
                             justify-content: center;
-                            align-items: center;
-                            
-                          
-                            position: relative;
-                            bottom:20rem;
-                           }
-                           .footer3 h3{
-                            font-size: 3rem;
-                           }
-                           .footer3 p{
-                            font-size: 2rem;
-                           }
-                           .hr2{
-                            display: none;
-                           }
-                           .hr3{
-                            position: relative;
-                            bottom: 25.1rem;
-                           }
-                           .hr1{
-                           position: relative;
-                           bottom: 15rem;
-                           
-                           }
-                           .Copyri8 h2{
-                            position:absolute;
-                            bottom: 18rem;
-                            right: 61rem;
-                            font-size: 2rem;
-                            
-                            
-
-                            
-                           }
-                           
-
-                          }
+                            align-items: baseline;
+                            position: absolute;
+                            top: 25rem;
+                            left: 7rem;
+                                                 
  
+                            }
+                            .footer2 h3{
+                             font-size: 3rem;
+                            }
+                            .footer2 p{
+                             font-size: 2rem;
+                            }
+                            .footer3{
+                             display: flex;
+                             justify-content: center;
+                             align-items: baseline;
+                             
+                           
+                             position: absolute;
+                             top: 50rem;
+                             left: 7rem;
+                            }
+                            .footer3 h3{
+                             font-size: 3rem;
+                            }
+                            .footer3 p{
+                             font-size: 2rem;
+                            }
+                            .hr2{
+                             display: none;
+                            }
+                            .hr3{
+                             position: relative;
+                             bottom: 25.1rem;
+                             display: none;
+                            }
+                            .hr1{
+                            position: relative;
+                            top: 50rem;
+                            
+                           
+                            
+                            }
+                            .Copyri8 h2{
+                             position:absolute;
+                             top: 30rem;
+                             width:100%;
+                             font-size: 3rem;
+                             right: 18rem;
+                             margin: 0;
+                             padding: 0px 0px 80px 0px;
+                             
+                            }
+                          }
