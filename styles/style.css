@@ -959,7 +959,7 @@ padding:3rem;
                             
                              {
                                .Body{
-                                width: 275vw;
+                                width:270vw;
                                 margin: 0;
                                
                                  
@@ -970,7 +970,7 @@ padding:3rem;
                                
                            
                                .container{
-                                 width:100%;
+                                 width:94rem;
                                  
                                  border-radius: 1rem;
                                  
@@ -978,8 +978,10 @@ padding:3rem;
                                 
  
                                  height: 145rem;
-                                 border: 2px solid red;
+                                 
+                                 
                                  margin: 0;
+                                 display: ;
                                  
                                  
                                 
@@ -1218,20 +1220,28 @@ padding:3rem;
                                
                              }
                              .chart{
+                              position: relative;
                                margin-top:20rem ;
+                               border: 1px solid silver;
+                               height: 800px;
+                               left: 0.5rem;
+                               border-radius: 1rem;
                              }
                              .chart h3{
                                font-size: 3rem;
                              }
                              .table{
                                font-size: 1.4rem;
-                               border: 2px solid white;
+                               border: 1px solid white;
                                height: 610px;
                              }
                              .compute{
                              position: relative;
                              
                              bottom:5rem ;
+                             border: 1px solid silver;
+                             left: 0.5rem;
+                             border-radius: 1rem;
                              
  
                              }
@@ -1299,7 +1309,8 @@ padding:3rem;
                                top: 15rem;
                                justify-content: flex-start;
                                height: 195rem;
-                               background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(14, 13, 13, 0.705) 100%);
+                               background-color:slategray;
+                               border: 2px solid silver
                                
                              
                                
